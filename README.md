@@ -50,7 +50,7 @@ Send a JSON payload with the following fields:
   "utilitycode": "CASHIN",
   "utilityref": "0744963858",
   "amount": 3000,
-  "pin": 2019
+  "pin": 0000
 }
 ```
 
