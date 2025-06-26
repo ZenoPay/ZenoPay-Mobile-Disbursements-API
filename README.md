@@ -71,7 +71,7 @@ Send a JSON payload with the following fields:
     "transid": "7pbBXlnnASwerdsadasdwnnnrrr09AZ",
     "resultcode": "000",
     "result": "SUCCESS",
-    "message": "Selcom Qwikpay\nMpesa\nTo JUMA SHABANI(255744963858)\nFrom ZENO\nAmount 3,000.00\n\nReference 0949694808\n26/06/2025 7:21:24 PM",
+    "message": "\nMpesa\nTo JUMA SHABANI(255744963858)\nFrom ZENO\nAmount 3,000.00\n\nReference 0949694808\n26/06/2025 7:21:24 PM",
     "data": []
   }
 }
