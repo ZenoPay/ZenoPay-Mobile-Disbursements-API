@@ -61,15 +61,21 @@ Send a JSON payload with the following fields:
 ```json
 {
   "status": "success",
-  "message": "Disbursement processed successfully",
-  "data": {
-    "transid": "7pbBX-lnnASw-erwnn-nrrr09AZ",
-    "amount": 3000,
-    "utilityref": "0744963858",
-    "status": "completed",
-    "timestamp": "2025-06-26T16:30:00+0300"
+  "message": "Wallet Cashin processed successfully.",
+  "fee": 1500,
+  "amount_sent_to_customer": 3000,
+  "total_deducted": 4500,
+  "new_balance": "62984034.00",
+  "zenopay_response": {
+    "reference": "0949694808",
+    "transid": "7pbBXlnnASwerdsadasdwnnnrrr09AZ",
+    "resultcode": "000",
+    "result": "SUCCESS",
+    "message": "Selcom Qwikpay\nMpesa\nTo JUMA SHABANI(255744963858)\nFrom ZENO\nAmount 3,000.00\n\nReference 0949694808\n26/06/2025 7:21:24 PM",
+    "data": []
   }
 }
+
 ```
 
 ---
